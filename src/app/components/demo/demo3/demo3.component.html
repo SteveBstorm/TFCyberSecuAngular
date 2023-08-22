@@ -1,0 +1,24 @@
+<h3>Pipes</h3>
+<p>Valeur de myString : {{myString}}</p>
+<p>Uppercase pipe : {{ myString | uppercase}}</p>
+<p>Lowercase pipe : {{ myString | lowercase}}</p>
+<p>Titlecase pipe : {{ myString | titlecase}}</p>
+<hr />
+<p>Valeur de myNumber : {{myNumber}}</p>
+<p>Number pipe : {{myNumber | number : '2.0-2'}}</p>
+<p>Currency pipe : {{myNumber | currency : 'USD'}}</p>
+<hr />
+<p>Valeur de myDate : {{myDate}}</p>
+<p>Date pipe : {{myDate | date : 'dd-MM-yyyy'}}</p>
+<hr />
+<p>Valeur de myObject : {{myObject}}</p>
+<p>Json pipe : {{myObject | json}}</p>
+
+<hr />
+<p>Euro : {{euro}}</p>
+<p>Bitcoin : {{euro | eurToBtc}}</p>
+
+<hr />
+<p>Multi params dans le pipes graçe au ...args[] "indexeur de paramètres"</p>
+<p>Powered by bibi : {{poweredLoulou}}</p>
+<p>Powwwwwww : {{poweredLoulou | power : 2 : 3 : 1}}</p>
