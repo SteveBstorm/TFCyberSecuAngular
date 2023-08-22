@@ -14,4 +14,6 @@ export class Demo3Component {
   euro : number = 100000
   poweredLoulou : number = 42
 
+  secondesConverter : number = 1117652
+
 }

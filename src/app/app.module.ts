@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { Demo3Component } from './components/demo/demo3/demo3.component';
 import { EurToBtcPipe } from './shared/eur-to-btc.pipe';
 import { PowerPipe } from './shared/power.pipe';
+import { JhmsPipe } from './shared/jhms.pipe';
+import { Demo4Component } from './components/demo/demo4/demo4.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { PowerPipe } from './shared/power.pipe';
     Demo2Component,
     Demo3Component,
     EurToBtcPipe,
-    PowerPipe
+    PowerPipe,
+    JhmsPipe,
+    Demo4Component,
   ],
   imports: [
     BrowserModule,
