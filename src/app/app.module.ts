@@ -17,6 +17,8 @@ import { Demo4Component } from './components/demo/demo4/demo4.component';
 import { ExosCartV1Component } from './components/exos/exos-cart-v1/exos-cart-v1.component';
 import { MamyPipe } from './components/exos/exos-cart-v1/mamy.pipe';
 import { Demo5Component } from './components/demo/demo5/demo5.component';
+import { HighlightDirective } from './components/demo/demo5/highlight.directive';
+import { HighlightDynamicsDirective } from './components/demo/demo5/highlight-dynamics.directive';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { Demo5Component } from './components/demo/demo5/demo5.component';
     ExosCartV1Component,
     MamyPipe,
     Demo5Component,
+    HighlightDirective,
+    HighlightDynamicsDirective,
   ],
   imports: [
     BrowserModule,
