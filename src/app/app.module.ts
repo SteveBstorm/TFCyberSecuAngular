@@ -14,6 +14,9 @@ import { EurToBtcPipe } from './shared/eur-to-btc.pipe';
 import { PowerPipe } from './shared/power.pipe';
 import { JhmsPipe } from './shared/jhms.pipe';
 import { Demo4Component } from './components/demo/demo4/demo4.component';
+import { ExosCartV1Component } from './components/exos/exos-cart-v1/exos-cart-v1.component';
+import { MamyPipe } from './components/exos/exos-cart-v1/mamy.pipe';
+import { Demo5Component } from './components/demo/demo5/demo5.component';
 
 
 @NgModule({
@@ -29,6 +32,9 @@ import { Demo4Component } from './components/demo/demo4/demo4.component';
     PowerPipe,
     JhmsPipe,
     Demo4Component,
+    ExosCartV1Component,
+    MamyPipe,
+    Demo5Component,
   ],
   imports: [
     BrowserModule,
