@@ -23,6 +23,10 @@ import { ExosDirectiveComponent } from './components/exos/exos-directive/exos-di
 import { TrimerDirective } from './components/exos/exos-directive/trimer.directive';
 import { PlayerComponent } from './components/demo/topPlayers/player/player.component';
 import { TopPlayersComponent } from './components/demo/topPlayers/top-players.component';
+import { ListArticleExosComponent } from './components/exos/exos-cart-v2/list-article-exos.component';
+import { SystemAddArticleComponent } from './components/exos/exos-cart-v2/system-add-article/system-add-article.component';
+import { ArticleComponent } from './components/exos/exos-cart-v2/article/article.component';
+import { Demo7Component } from './components/demo/demo7/demo7.component';
 
 
 @NgModule({
@@ -39,6 +43,7 @@ import { TopPlayersComponent } from './components/demo/topPlayers/top-players.co
     JhmsPipe,
     Demo4Component,
     ExosCartV1Component,
+    ListArticleExosComponent,
     MamyPipe,
     Demo5Component,
     HighlightDirective,
@@ -47,6 +52,9 @@ import { TopPlayersComponent } from './components/demo/topPlayers/top-players.co
     TrimerDirective,
     TopPlayersComponent,
     PlayerComponent,
+    SystemAddArticleComponent,
+    ArticleComponent,
+    Demo7Component,
   ],
   imports: [
     BrowserModule,

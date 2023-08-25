@@ -11,6 +11,8 @@ import { ExosCartV1Component } from './components/exos/exos-cart-v1/exos-cart-v1
 import { Demo5Component } from './components/demo/demo5/demo5.component';
 import { ExosDirectiveComponent } from './components/exos/exos-directive/exos-directive.component';
 import { TopPlayersComponent } from './components/demo/topPlayers/top-players.component';
+import { ListArticleExosComponent } from './components/exos/exos-cart-v2/list-article-exos.component';
+import { Demo7Component } from './components/demo/demo7/demo7.component';
 
 const routes: Routes = [
   { path : 'home', component : HomeComponent},
@@ -22,9 +24,11 @@ const routes: Routes = [
       {path : 'demo4', component : Demo4Component},
       {path : 'demo5', component : Demo5Component},
       {path : 'inputoutput', component : TopPlayersComponent},
+      {path : 'demo7', component : Demo7Component},
     ]
   },
   { path : "exoscartv1", component : ExosCartV1Component},
+  { path : "exoscartv2", component : ListArticleExosComponent},
   { path : "exosdirective", component : ExosDirectiveComponent},
 ];
 
