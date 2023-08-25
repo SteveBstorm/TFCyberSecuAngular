@@ -21,6 +21,8 @@ import { HighlightDirective } from './components/demo/demo5/highlight.directive'
 import { HighlightDynamicsDirective } from './components/demo/demo5/highlight-dynamics.directive';
 import { ExosDirectiveComponent } from './components/exos/exos-directive/exos-directive.component';
 import { TrimerDirective } from './components/exos/exos-directive/trimer.directive';
+import { PlayerComponent } from './components/demo/topPlayers/player/player.component';
+import { TopPlayersComponent } from './components/demo/topPlayers/top-players.component';
 
 
 @NgModule({
@@ -43,6 +45,8 @@ import { TrimerDirective } from './components/exos/exos-directive/trimer.directi
     HighlightDynamicsDirective,
     ExosDirectiveComponent,
     TrimerDirective,
+    TopPlayersComponent,
+    PlayerComponent,
   ],
   imports: [
     BrowserModule,
