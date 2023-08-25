@@ -19,6 +19,8 @@ import { MamyPipe } from './components/exos/exos-cart-v1/mamy.pipe';
 import { Demo5Component } from './components/demo/demo5/demo5.component';
 import { HighlightDirective } from './components/demo/demo5/highlight.directive';
 import { HighlightDynamicsDirective } from './components/demo/demo5/highlight-dynamics.directive';
+import { ExosDirectiveComponent } from './components/exos/exos-directive/exos-directive.component';
+import { TrimerDirective } from './components/exos/exos-directive/trimer.directive';
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import { HighlightDynamicsDirective } from './components/demo/demo5/highlight-dy
     Demo5Component,
     HighlightDirective,
     HighlightDynamicsDirective,
+    ExosDirectiveComponent,
+    TrimerDirective,
   ],
   imports: [
     BrowserModule,
