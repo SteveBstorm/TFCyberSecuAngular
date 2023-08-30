@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
@@ -13,6 +14,8 @@ import { ExosDirectiveComponent } from './components/exos/exos-directive/exos-di
 import { TopPlayersComponent } from './components/demo/topPlayers/top-players.component';
 import { ListArticleExosComponent } from './components/exos/exos-cart-v2/list-article-exos.component';
 import { Demo7Component } from './components/demo/demo7/demo7.component';
+import { ExosCartV3Component } from './components/exos/exos-cart-v3/exos-cart-v3.component';
+import { Demo8Component } from './components/demo/demo8/demo8.component';
 
 const routes: Routes = [
   { path : 'home', component : HomeComponent},
@@ -25,10 +28,12 @@ const routes: Routes = [
       {path : 'demo5', component : Demo5Component},
       {path : 'inputoutput', component : TopPlayersComponent},
       {path : 'demo7', component : Demo7Component},
+      {path : 'demo8', component : Demo8Component},
     ]
   },
   { path : "exoscartv1", component : ExosCartV1Component},
   { path : "exoscartv2", component : ListArticleExosComponent},
+  { path : "exoscartv3", component : ExosCartV3Component},
   { path : "exosdirective", component : ExosDirectiveComponent},
 ];
 

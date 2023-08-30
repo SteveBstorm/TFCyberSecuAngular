@@ -8,7 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { DemoComponent } from './components/demo/demo.component';
 import { Demo1Component } from './components/demo/demo1/demo1.component';
 import { Demo2Component } from './components/demo/demo2/demo2.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Demo3Component } from './components/demo/demo3/demo3.component';
 import { EurToBtcPipe } from './shared/eur-to-btc.pipe';
 import { PowerPipe } from './shared/power.pipe';
@@ -27,6 +27,10 @@ import { ListArticleExosComponent } from './components/exos/exos-cart-v2/list-ar
 import { SystemAddArticleComponent } from './components/exos/exos-cart-v2/system-add-article/system-add-article.component';
 import { ArticleComponent } from './components/exos/exos-cart-v2/article/article.component';
 import { Demo7Component } from './components/demo/demo7/demo7.component';
+import { ExosCartV3Component } from './components/exos/exos-cart-v3/exos-cart-v3.component';
+import { ListeComponent } from './components/exos/exos-cart-v3/liste/liste.component';
+import { Demo8Component } from './components/demo/demo8/demo8.component';
+
 
 
 @NgModule({
@@ -55,11 +59,15 @@ import { Demo7Component } from './components/demo/demo7/demo7.component';
     SystemAddArticleComponent,
     ArticleComponent,
     Demo7Component,
+    ExosCartV3Component,
+    ListeComponent,
+    Demo8Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
