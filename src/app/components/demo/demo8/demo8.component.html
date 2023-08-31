@@ -1,6 +1,6 @@
 <h3>Formulaire</h3>
 
-<fieldset>
+<fieldset class="form">
   <form [formGroup]="myForm" (ngSubmit)="validerFormulaire()">
     <p><label>Titre</label>
        <input type="text" formControlName="titre">
@@ -24,7 +24,7 @@
       <button type="button" (click)="ajouterActeur()">+ Acteur</button>
       <ul formArrayName="casting">
         <li *ngFor="let a of getCasting().controls; let i = index;">
-          Acteur {{i}} : <input type="text" [formControlName]="i">
+          Acteur {{i+1}} : <input type="text" [formControlName]="i">
 
         </li>
       </ul>

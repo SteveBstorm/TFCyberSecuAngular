@@ -30,6 +30,8 @@ import { Demo7Component } from './components/demo/demo7/demo7.component';
 import { ExosCartV3Component } from './components/exos/exos-cart-v3/exos-cart-v3.component';
 import { ListeComponent } from './components/exos/exos-cart-v3/liste/liste.component';
 import { Demo8Component } from './components/demo/demo8/demo8.component';
+import { Demo9Component } from './components/demo/demo9/demo9.component';
+import { CibleComponent } from './components/demo/demo9/cible/cible.component';
 
 
 
@@ -62,6 +64,8 @@ import { Demo8Component } from './components/demo/demo8/demo8.component';
     ExosCartV3Component,
     ListeComponent,
     Demo8Component,
+    Demo9Component,
+    CibleComponent
   ],
   imports: [
     BrowserModule,

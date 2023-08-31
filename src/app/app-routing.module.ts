@@ -16,6 +16,8 @@ import { ListArticleExosComponent } from './components/exos/exos-cart-v2/list-ar
 import { Demo7Component } from './components/demo/demo7/demo7.component';
 import { ExosCartV3Component } from './components/exos/exos-cart-v3/exos-cart-v3.component';
 import { Demo8Component } from './components/demo/demo8/demo8.component';
+import { Demo9Component } from './components/demo/demo9/demo9.component';
+import { CibleComponent } from './components/demo/demo9/cible/cible.component';
 
 const routes: Routes = [
   { path : 'home', component : HomeComponent},
@@ -29,6 +31,8 @@ const routes: Routes = [
       {path : 'inputoutput', component : TopPlayersComponent},
       {path : 'demo7', component : Demo7Component},
       {path : 'demo8', component : Demo8Component},
+      {path : 'demo9', component : Demo9Component},
+      {path : 'cible/:nom', component : CibleComponent},
     ]
   },
   { path : "exoscartv1", component : ExosCartV1Component},
